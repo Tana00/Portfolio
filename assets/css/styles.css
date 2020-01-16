@@ -2169,6 +2169,11 @@ body {
 .section-title h2 {
   margin-bottom: 60px; }
 
+@media (min-width: 768px) {
+	.project-row {
+	    padding: 0 3em;
+	}
+}
 /*
     ==============
        SERVICES
