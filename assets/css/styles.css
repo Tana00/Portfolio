@@ -264,8 +264,8 @@ a:focus {
   display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
-  align-items: center;
   -webkit-align-items: center;
+  align-items: center;
   justify-content: center;
   -webkit-justify-content: center;
   flex-direction: row;
@@ -276,10 +276,10 @@ a:focus {
   padding: 20px 0;
 }
 
-section {
+/* section {
   //padding: 60px 0;
   //padding-bottom: 30px;
-}
+} */
 
 /**
  * ---------------------
@@ -466,8 +466,8 @@ ul li {
   display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
-  align-items: center;
   -webkit-align-items: center;
+  align-items: center;
   justify-content: center;
   -webkit-justify-content: center;
   flex-direction: row;
@@ -2902,10 +2902,10 @@ body.scrollable {
 .modal-footer {
   display: flex;
   justify-content: flex-start;
-  .btn {
-    position: absolute;
-    right: 10px;
-  }
 }
+/* .btn {
+  position: absolute;
+  right: 10px;
+} */
 
 /*# sourceMappingURL=styles.css.map */

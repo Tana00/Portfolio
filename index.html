@@ -18,7 +18,7 @@
         <link rel="shortcut icon" sizes="114x114" href="assets/images/apple-icon-114x114.png">
         
         <!-- Google Font-->
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
         <!-- Font Awesome -->
         <link rel="stylesheet" href="assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">
         <!-- Bootstrap CSS -->
@@ -28,7 +28,7 @@
         <!-- Owl Carousel CSS-->
         <link rel="stylesheet" href="assets/plugins/css/owl.css">
         <!-- Fancybox-->
-        <link rel="stylesheet" href="assets/plugins/css/jquery.fancybox.min.css">
+        <!-- <link rel="stylesheet" href="assets/plugins/css/jquery.fancybox.min.css"> -->
         
         <!-- Custom CSS-->
         <link rel="preload" href="assets/css/styles.css" as="style" media="all" onload="this.onload=null;this.rel='stylesheet'">
@@ -141,21 +141,21 @@
                 <div class="row section-separator">
                     <div class="col-sm-12 col-md-6">
                         <div class="mh-about-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
-                            <img src="assets/images/ab-img2.jpg" data-src="assets/images/ab-img2.jpg" alt="" class="img-fluid lazy" loading="lazy">
+                            <img src="assets/images/ab-img2-small.jpg" data-src="assets/images/ab-img2-med.jpg" alt="" class="img-fluid lazy" loading="lazy">
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6">
                         <div class="mh-about-inner">
-                            <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">About Me</h2>
-                            <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">While working as a marketing executive,
+                            <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s" style="visibility: hidden; animation-duration: 0.8s; animation-delay: 0.1s; animation-name: none;">About Me</h2>
+                            <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeInUp;">While working as a marketing executive,
                                  I was introduced to programming by a close Friend. 
                                  From the moment I produced "Hello World" in the console of my first application, 
                                  I knew I was hooked into the world of software development.
-                            </br>
-                            </br>Hello, I’m Happiness, a web-developer based in Lagos,
+                            <br>
+                            <br>Hello, I’m Happiness, a web-developer based in Lagos,
                                  with interest in web site design, building,
                             and customization. Also I am pretty good at</p>
-                            <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                            <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s; animation-name: fadeInUp;">
                                 <ul>
                                     <li><span>html</span></li>
                                     <li><span>css</span></li>
@@ -174,7 +174,7 @@
                                     <li><span>Netlify</span></li>
                                 </ul>
                             </div>
-                            <a href="assets/images/Happiness-Balogun-CV.pdf" target="_blank" class="btn btn-fill wow fadeInUp"  data-wow-duration="0.8s" data-wow-delay="0.4s">View CV <i class="fa fa-eye"></i></a>
+                            <a href="assets/images/HappinessBalogunResume.pdf" target="_blank" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">View CV <i class="fa fa-eye"></i></a>
                             <!-- <a href="assets/images/Happiness-Balogun-CV.pdf" target="_blank" class="btn btn-fill wow fadeInUp"  data-wow-duration="0.8s" data-wow-delay="0.4s">View CV</a> -->
                         </div>
                     </div>
@@ -519,12 +519,14 @@
                                     <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
                                         <h4>Software Development From <a href="#">Online sources</a></h4>
                                         <div class="mh-eduyear">2019</div>
-                                            <p>These sources include:</p>                                       
+                                            <p>These sources include:</p>    
+                                            <ul>                                  
                                                 <li>LinkedIn Learning</li>
                                                 <li>FreeCode Camp</li>
                                                 <li>Solo Learn</li>
                                                 <li>Udemy</li>                                   
-                                                <li>Hotels.ng Internship (HNGI)</li>                                   
+                                                <li>Hotels.ng Internship (HNGI)</li>  
+                                            </ul>                                  
                                     </div>   
                                     <h3 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Certificates</h3>   
                                     <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
@@ -839,7 +841,7 @@
     <!-- jQuery -->
     <script src="assets/plugins/js/jquery.min.js"></script>
     <!-- popper -->
-    <script src="assets/plugins/js/popper.min.js"></script>
+    <script src="assets/plugins/js/popper.min.js" async></script>
     <!-- bootstrap -->
     <script src="assets/plugins/js/bootstrap.min.js"></script>
     <!-- owl carousel -->
